@@ -5,7 +5,7 @@
 <suite name="TestSuite" verbose="1">
     <test name="MainPageTest">
         <classes>
-            <class name="org.example.untitled.MainPageTest" />
+            <class name="org.example.test_classes.MainPageTest" />
         </classes>
     </test>
 </suite>

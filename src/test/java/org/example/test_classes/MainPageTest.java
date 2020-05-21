@@ -1,4 +1,4 @@
-package org.example.untitled;
+package org.example.test_classes;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
