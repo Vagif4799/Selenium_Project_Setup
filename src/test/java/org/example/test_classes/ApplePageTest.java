@@ -6,8 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
-
-public class MainPageTest {
+public class ApplePageTest {
 
     private WebDriver driver;
     public String baseUrl = "https://www.apple.com/";
@@ -21,9 +20,7 @@ public class MainPageTest {
     @Test
     public void openPage() {
         driver.get(baseUrl);
-        String expectedTitle = "Apple";
-        String actualTitle = driver.getTitle();
-        Assert.assertEquals(actualTitle, expectedTitle);
+        Assert.assertEquals("Apple", driver.getTitle());
     }
 
     @AfterTest

@@ -2,10 +2,15 @@
 
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 
-<suite name="TestSuite" verbose="1">
-    <test name="MainPageTest">
+<suite name="TestSuite" verbose="1" parallel="true">
+    <test name="Apple_Page_Test">
         <classes>
-            <class name="org.example.test_classes.MainPageTest" />
+            <class name="org.example.test_classes.ApplePageTest" />
+        </classes>
+    </test>
+    <test name="E_Olymp_Test" verbose="1">
+        <classes>
+            <class name="org.example.test_classes.E_OlympTest" />
         </classes>
     </test>
 </suite>
